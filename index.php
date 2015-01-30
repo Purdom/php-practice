@@ -48,6 +48,14 @@ foreach($au as $name => $path){
   echo "<li><a href=\"$path\">$name</a></li>";
 }
 ?>
+
+<h2>Variables and URLs</h2>
+<?php
+$name = $_GET['site'];
+$path = $au[$name];
+echo "<li><a href=\"$path\">$name</a></li>";
+?>
+
  </body>
 </html>
 
