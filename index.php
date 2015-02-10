@@ -55,7 +55,6 @@ $name = $_GET['site'];
 $path = $au[$name];
 echo "<li><a href=\"$path\">$name</a></li>";
 ?>
-
  </body>
 </html>
 
